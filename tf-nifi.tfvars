@@ -27,8 +27,7 @@ ec2_name_prefix = "tf-nifi"
 vendor_ami_account_number = "amazon"
 vendor_ami_name_string = "amzn2-ami-hvm-2.0.20200207.1-x86_64-ebs"
 
-# the mirror nifi / zookeeper / toolkit are downloaded from - and the versions
-mirror_host = "mirror.cogentco.com"
+# nifi/nifi-toolkit and zookeeper versions downloaded from https://archive.apache.org/dist/
 nifi_version = "1.12.0"
 zk_version = "3.6.1"
 
